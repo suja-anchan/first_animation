@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="font.css">
+	
+	<style type="text/css">
+
+		
+		.zoomInLeft {
+			animation: zoomInLeft;
+  -webkit-animation-name: zoomInLeft;
+  animation-name: zoomInLeft;
+}
+		@-webkit-keyframes zoomInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes zoomInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+		
+		.maroon{
+			color: #F3A083;
+			font-family: Perpetua;
+			font-size: 35px;
+			animation: slide 5s linear infinite;
+			background-color:black;
+
+		}
+		
+		ul{
+			list-style-type: none;
+			text-align: center;
+		}
+
+	
+
+		
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+	<h1 align="center" ><svg class="bi bi-book-half-fill" width="50" height="50" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg>TOPICS</h1>
+	    </div>
+	<!-- <nav class="navbar navbar-default">
+	<div class="container">	
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand"></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li></ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+		
+		</div>
+	</div>	
+	</nav> -->
+	<div  class=" maroon">		
+	<ul type="circle" class="ul">
+		<li  class="zoomInLeft">Biomedical Image Processing</li>
+		<li class="zoomInLeft">VLSI</li>
+		<li class="zoomInLeft">Quantum computing</li>
+		<li class="zoomInLeft">Smart Grid Systems</li>
+		<li class="zoomInLeft">Geo Science and Remote Sensing</li>
+		<li class="zoomInLeft">Industrial IoT and Security</li>
+		<li class="zoomInLeft">Image Processing</li>
+		<li class="zoomInLeft">Robotic Systems Development</li>
+		<li class="zoomInLeft">Big Data Analytics</li>
+		<li class="zoomInLeft">Embedded Systems</li>
+		<li class="zoomInLeft">Renewable Energy Sources</li> 
+	</ul>
+</div>
+</div>
+</body>
+</html>

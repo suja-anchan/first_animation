@@ -1,0 +1,25 @@
+h1{
+	font-family: 'Luckiest Guy', cursive;
+
+}
+li{
+	font-family:'IM Fell Great Primer SC', serif;
+
+	
+}
+body{
+	background : #000;
+}
+	.maroon{
+			color: #F3A083;
+			font-family: Perpetua;
+			font-size: 35px;
+			animation: slide 5s linear infinite;
+			background-color:black;
+
+		}
+		
+		ul{
+			list-style-type: none;
+			text-align: center;
+		}
